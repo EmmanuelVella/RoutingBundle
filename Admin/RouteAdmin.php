@@ -87,7 +87,7 @@ class RouteAdmin extends Admin
         return array(
             array('_controller', 'text', array('required' => false)),
             array('_template', 'text', array('required' => false)),
-            array('type', 'symfony_cmf_routing_route_type', array(
+            array('type', 'cmf_routing_route_type', array(
                 'empty_value' => '',
                 'required' => false,
             )),
